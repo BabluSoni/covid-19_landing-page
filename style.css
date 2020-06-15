@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100wv;
+    background-image: url(./Images/background1.jpg);
+    background-size: cover;
+    /* background-position: center center; */
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-toggler {
+    outline: none!important;
+    border: none;
+}
+
+.fa {
+    color: #22d1ee!important;
+    font-size: 35px!important;
+}
+
+.newcolor {
+    color: #22d1ee!important;
+    margin: 0px 30px;
+}
+
+.newcolor:hover {
+    color: #f3f169!important;
+    border-bottom: 3px solid #22d1ee;
+}
+
+.sociallink {
+    color: #22d1ee!important;
+    margin: 0px 5px;
+}
+
+hr {
+    width: 100%;
+    background-color: #22cfee36;
+}
+
+.text-yellow {
+    color: #f3f169;
+}
+
+.cont-icon {
+    font-size: 3rem;
+    padding: 20px 0px;
+}
+
+.text-yellow h2 {
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+
+p {
+    color: #22d1ee;
+    font-size: .8rem;
+}
+
+.doctorimg::before {
+    content: 'STAY HEALTHY';
+    font-size: 1.8rem;
+    color: #fff;
+    position: absolute;
+    right: 235px;
+    bottom: 150px;
+}
